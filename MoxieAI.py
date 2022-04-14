@@ -59,7 +59,7 @@ def quiz():
      elif answer2 == "I dont know" or "i dont know" or "idk" or "IDK" or "I dont know?" or "idk?" or "IDK?" or "I DONT KNOW?" or "I DONT KNOW?" or "I don't know":
                     print("Don't worry, ", name)
                     print("answer is B) Italy")
-                    print("Awww!, Sorry! More quiz coming soon!")
+                    print("Awww!, Sorry! More quiz coming soon!") # Please add more quizes
      else:
           print("Sorry answer is B) Italy")
           print("Awww!, Sorry! More quiz coming soon!")
@@ -90,6 +90,7 @@ def virus_prank():
      else:
          if confirm_answer == "N" or "n" or "NO" or "No" or "no":
               print("Ok user! virus is not being installed and executed.")
+
 def Round(number):
      print(round(number))
 def farenheit_celcius(Number):
